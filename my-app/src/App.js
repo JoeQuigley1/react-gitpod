@@ -1,10 +1,14 @@
 import './App.css';
-import UncontrolledForm from './components/UncontrolledForm';
+import ControlledFormHooks from './components/ControlledFormHooks';
+import HTTPHooks from './components/HTTPHooks';
+import HTTPPost from './components/HTTPPost';
+import HTTPRequests from './components/HTTPRequests';
+
 
 function App() {
   return (
     <div className="App">
-      <UncontrolledForm />
+      <HTTPHooks /> 
     </div>
   );
 }
